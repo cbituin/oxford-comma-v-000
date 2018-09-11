@@ -7,7 +7,7 @@ def oxford_comma(array)
   elsif array.size >= 3
     newArray = []; counter = 0
     until counter === array.size - 1
-      newArray << array[counter].shift
+      newArray << array[counter]
       counter+=1 
     end
     newArray.push("and")
