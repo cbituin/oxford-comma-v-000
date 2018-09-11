@@ -5,14 +5,14 @@ def oxford_comma(array)
     array.join(" and ")
 
   elsif array.size >= 3
-    newArray = []; counter = 0
-    until counter === array.size - 1
-      newArray << array[counter]
-      counter+=1 
-    end
-    newArray.push("and")
-    newArray.push(array[array.size-1])
-    newArray.join(", ")
+    # newArray = []; counter = 0
+    # until counter === array.size - 1
+    #   newArray << array[counter]
+    #   counter+=1 
+    # end
+    # newArray.push("and")
+    # newArray.push(array[array.size-1])
+    array.join(", ")
   end
 
 end
